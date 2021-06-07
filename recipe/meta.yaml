@@ -1,5 +1,5 @@
 {% set name = "sysstat" %}
-{% set version = "12.5.3" %}
+{% set version = "12.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sysstat/sysstat/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 49fa6e4ce4994186d34f20cad43032be411d3f98244cbd8c3d3c480c3a4535bc
+  sha256: 8f6dcb186a0b75e0c6c59f134fdb56dd814d6ee676ccde9bd04640c3099c9746
 
 build:
   skip: true  # [not linux]
@@ -34,7 +34,7 @@ about:
   home: http://sebastien.godard.pagesperso-orange.fr/
   license: GPL-2.0-or-later
   license_file: COPYING
-  summary: 'Performance monitoring tools for Linux'
+  summary: Performance monitoring tools for Linux
   description: |
     The sysstat package contains various utilities, common to many commercial
     Unixes, to monitor system performance and usage activity:
