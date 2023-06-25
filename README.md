@@ -1,11 +1,11 @@
-About sysstat
-=============
+About sysstat-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sysstat-feedstock/blob/main/LICENSE.txt)
 
 Home: http://sebastien.godard.pagesperso-orange.fr/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sysstat-feedstock/blob/main/LICENSE.txt)
 
 Summary: Performance monitoring tools for Linux
 
