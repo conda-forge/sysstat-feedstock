@@ -1,5 +1,5 @@
 {% set name = "sysstat" %}
-{% set version = "12.7.4" %}
+{% set version = "12.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sysstat/sysstat/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 7a1be97b642e80b358ab4d273d0194ffa149ad208a2a927a064870340cd19d44
+  sha256: a4d30e37c0c894214b941b51184723e19d492118c946cfdeac74b6d1f0068016
 
 build:
   skip: true  # [not linux]
