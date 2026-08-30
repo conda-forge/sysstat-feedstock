@@ -29,7 +29,7 @@ test:
     - tapestat -V
     - mpstat
     - pidstat
-    - cifsiostat
+    - cifsiostat -V
 
 about:
   home: http://sebastien.godard.pagesperso-orange.fr/
